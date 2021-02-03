@@ -1,0 +1,10 @@
+version = 0.1
+[personal]
+[personal.deploy]
+[personal.deploy.parameters]
+stack_name = "bestthreads-api-stack"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-9ik9wkelh5g4"
+s3_prefix = "bestthreads-api-stack"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
